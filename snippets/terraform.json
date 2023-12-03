@@ -1,5 +1,5 @@
 {
-  "z-module": {
+  "x-module": {
     "prefix": "x-tf-module",
     "description": "(poc) Modules in Terraform are self-contained packages of Terraform configurations that are managed as a group.",
     "body": ["module \"${myModuleName}\" {", "   source = \"\"", "}"]
