@@ -1,7 +1,7 @@
 {
-  "x-module": {
-    "prefix": "x-tf-module",
-    "description": "(poc) Modules in Terraform are self-contained packages of Terraform configurations that are managed as a group.",
+  "p-module": {
+    "prefix": "p-tf-module",
+    "description": "(poc) personal modules in Terraform are self-contained packages of Terraform configurations that are managed as a group.",
     "body": ["module \"${myModuleName}\" {", "   source = \"\"", "}"]
   }
 }
